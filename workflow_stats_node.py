@@ -84,10 +84,6 @@ class WorkflowStats:
 
                         for lid in output.get("links", []):
                             if lid == link_id:
-                                print("--------------")
-                                print(node)
-                                print()
-                                print(this_node)
                                 # change this_node's output
                                 this_node["outputs"][0]["name"] = node["outputs"][oid]["name"]
                                 this_node["outputs"][0]["type"] = node["outputs"][oid]["type"]

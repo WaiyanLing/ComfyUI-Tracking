@@ -1,2 +1,7 @@
+# ComfyUI-Tracking
+
 ## Introduction
-**ComfyUI-Tracking** is a data tracking toolkit designed to conveniently collect invocation data from workflows.
+**ComfyUI-Tracking** This node pack helps to conveniently collect invocation data from workflows for further study.
+
+## How To Install
+
